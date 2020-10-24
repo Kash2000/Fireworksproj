@@ -1,5 +1,5 @@
 /*
- * Kashish Dewnani
+ * Kashish G Dewnani
  * Net ID- kdewnani
  * Assignment- Project 3
  * LAB TR 11:05-12:20
@@ -27,8 +27,8 @@ the value of the sliders would result in a different output and a different valu
 and fuse time would be stored. Next is the Frame class which as the name suggests creates the 
 frame, but also creates the Canvas using an object from the Canvas class. The Canvas class 
 contains the paintComponent method in order to paint the fireworks depending on the inputs. An 
-ifÖelse condition is used in order for the program to be able to print different types of fireworks. 
-Every other type except for the ìSingleî type is in the extra credit of the program. 
+if‚Ä¶else condition is used in order for the program to be able to print different types of fireworks. 
+Every other type except for the ‚ÄúSingle‚Äù type is in the extra credit of the program. 
 
 Methods: 
 
@@ -50,7 +50,7 @@ Extra-Credit Explained:
 This part of the extra-credit comes under the first part of the extra credit. Firing 2 projectiles 
 towards each other and if they come within a certain range, they explode at that point and extra 
 colored lines are painted. This part of the extra-credit comes under the type of firework called 
-ìCollidingî. If the type of launch is ìCollidingî, it calls the methods DoubleProjectile, 
+‚ÄúColliding‚Äù. If the type of launch is ‚ÄúColliding‚Äù, it calls the methods DoubleProjectile, 
 DoubleEndpoint and Collision from the Fireworks class. The DoubleProjectile method creates a 
 replica of the single projectile that starts at the bottom right of the canvas. Therefore, there are 2 
 projectiles, one from the left and one from the right. The DoubleEndpoint method simply finds 
@@ -64,8 +64,8 @@ This part of the extra-credit comes under the other ideas part of the extra cred
 fireworks whereby three projectiles are initially launched and only when they meet up with each 
 other do they combine into one projectile and explode. There are three initial launches and they 
 all meet up at one common point where they converge into one and launch out until their 
-explosion point. This part of the extra-credit comes under the type of firework called ìMultiple 
-Convergenceî. If the type of launch is ìMultiple Convergenceî, the Multipleprojectiles, 
+explosion point. This part of the extra-credit comes under the type of firework called ‚ÄúMultiple 
+Convergence‚Äù. If the type of launch is ‚ÄúMultiple Convergence‚Äù, the Multipleprojectiles, 
 Endpoint3 and Endpoint4 methods would be called. The Multipleprojectiles method creates 4 
 trajectories, 3 of which are the 3 initial projectiles and the fourth is the final projectile. Endpoint3 
 calculates the end point of the final projectile and sets pointx and pointy to that point on order to 
@@ -75,7 +75,7 @@ this case is the point at which the 3 initial launches meet.
 This part of the extra credit comes under the third part of the extra-credit. This part creates child 
 projectiles from the main projectile launched. The projectile breaks up into three child projectiles 
 all of which travel a certain distance until they explode. This part of the extra-credit comes under 
-the type of firework called ìMultiple Dispersionî. If the type of launch is ìMultiple Dispersionî, 
+the type of firework called ‚ÄúMultiple Dispersion‚Äù. If the type of launch is ‚ÄúMultiple Dispersion‚Äù, 
 the Multipleprojectiles2, Endpoint4, Endpoint5, Endpoint6 and Endpoint7 methods would be 
 called. The Multipleprojectiles2 method creates 4 trajectories, 3 of which are the child projectiles 
 an the fourth is the initial projectile. Endpoint 4 calculates the prevpointx and prevpointy values 
